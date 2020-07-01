@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Fit Everyday</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {font-family: "Lato", sans-serif}
+.mySlides {display: none}
+</style>
+</head>
+<body>
+<div class="w3-top">
+    <div class="w3-bar w3-black w3-card">
+      <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+      <a href="index.htm" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+      <a href="recipes.htm" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Recipes</a>
+      <div class="w3-dropdown-hover w3-hide-small">
+        <a href="diets.htm"><button class="w3-padding-large w3-button" title="More">Diets <i class="fa fa-caret-down"></i></button></a>    
+        <div class="w3-dropdown-content w3-bar-block w3-card-4">
+          <a href="#" class="w3-bar-item w3-button">Atkins Diet</a>
+          <a href="#" class="w3-bar-item w3-button">Pritkins Diet</a>
+          <a href="#" class="w3-bar-item w3-button">Intermittent Fasting</a>
+          <a href="keto.htm" class="w3-bar-item w3-button">Keto Diet</a>
+        </div>
+      </div>
+      <div class="w3-dropdown-hover w3-hide-small">
+          <a href="workouts.htm"><button class="w3-padding-large w3-button" title="More">Workouts <i class="fa fa-caret-down"></i></button></a>     
+          <div class="w3-dropdown-content w3-bar-block w3-card-4">
+            <a href="#" class="w3-bar-item w3-button">HIIT</a>
+            <a href="#" class="w3-bar-item w3-button">Full-Body</a>
+            <a href="#" class="w3-bar-item w3-button">Home Workouts</a>
+          </div>
+        </div>
+      <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
+      <a href="#contact" class="w3-padding-large w3-hover-red w3-hide-small w3-right">Contact</a>
+    </div>
+  </div>
+
+<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:64px",>
+    <a href="recipes.htm" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Recipes</a>
+    <a href="workouts.htm" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Workouts</a>
+    <a href="diets.htm" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Diet Plans</a>
+</div>
+
+<!--Page contents-->
+<div class="w3-left">
+    <div class="w3-bar w3-white w3-card">
+      <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+      <div class="w3-black">
+        <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px"  id="header">
+        <h2 class="w3-wide">Fit Everyday</h2>
+        </div>
+      </div>
+      <div class="w3-row w3-padding-64">
+        <div class="w3-twothird w3-container">
+          <h1 class="w3-text-teal">Keto Diet</h1>
+          <p>Keto diets seems to be the favourite diet plans for people looking to loose fat fast. While Ketogenic deiet is a 
+          good option for a lot of people and it works just like advertised. It is a low-carb, high-fat diet, it shares a lot of similiarities with
+          the <a href="#">Atkin's Diet</a>. You have to cut down a lot on carbs which is the main source of energy for our body and replace it with fat.
+          This puts your body in a state of ketosis.Due to this our body starts burning fat really fast fo energy.It also turn fat into ketones in the liver, which can supply energy for the brain.
+        Ketogenic deit can cause drastic drop in blood sugar and insulin levels, which is very good for our health. </p>
+        </div>
+      </div>
+      <div class="w3-row w3-padding-15">
+        <div class="w3-twothird w3-container">
+          <h1 class="w3-text-teal">Types of Keto Diet</h1>
+          <ul>
+            <li><b>Standard ketogenic diet (SKD)</b>: This is a very low-carb, moderate-protein and high-fat diet. It typically contains 75% fat, 20% protein and only 5% carbs.</li>
+            <li><b>Cyclical ketogenic diet (CKD):</b>This diet involves periods of higher-carb refeeds, such as 5 ketogenic days followed by 2 high-carb days.</li>
+            <li><b>Targeted ketogenic diet (TKD): </b>This diet allows you to add carbs around workouts.</li>
+              <li><b>High-protein ketogenic diet: </b>This is similar to a standard ketogenic diet, but includes more protein. The ratio is often 60% fat, 35% protein and 5% carbs.</li>
+          </ul>  
+      </div>
+      <div class="w3-row w3-padding-15">
+        <div class="w3-twothird w3-container">
+          <h1 class="w3-text-teal">Foods to Avoid</h1>
+          <ul>
+            <li><b>Starch Food:</b> Wheat-based products, rice, pasta, cereal, etc.</li>
+            <li><b>Fruits:</b>All sortsof fruits should be avoided.</li>
+            <li><b>Alcohol:</b>Most beers and other alocholic drinks contain large amount of carbs that can throw you out of ketosis.</li>
+              <li><b>Processed Food: </b>Highly processed foods contain large amount of carbohydrates.</li>
+          </ul>  
+      </div>
+      <div class="w3-row w3-padding-15">
+        <div class="w3-twothird w3-container">
+          <h1 class="w3-text-teal">Foods to munch on</h1>
+          <ul>
+            <li><b>Meats:</b>Beef,lamb,pork,chicken are rich in protein and low in carbohydrates.</li>
+            <li><b>Eggs:</b>Another great source of protein and good fats that has low carbohydrates content.</li>
+            <li><b>High Fat Dairy:</b>Cheese,butter,yoghurt,paneer,milk.</li>
+            <li><b>Fats and oil: </b>Coconut oil,ghee and olive oil.</li>
+          </ul>  
+      </div>
+      <div class = w3-white>
+      <div class="w3-row w3-padding-64 ">
+        <div class="w3-twothird w3-container">
+          <h1 class="w3-text-teal">Indian Keto Diet(Vegetarian)</h1>
+          <div class="container">           
+            <table class="table table-hover">
+              <thead>
+                <tr>
+                  <th>Days</th>
+                  <th>Breakfast</th>
+                  <th>Lunch</th>
+                  <th>Snacks</th>
+                  <th>Dinner</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Monday</td>
+                  <td>Paneer parantha with curd</td>
+                  <td>Paneer bhurji or salads.</td>
+                  <td>Roasted chana (a handful should suffice) and green tea</td>
+                  <td>Spinach sabji with soy flour roti</td>
+                </tr>
+                <tr>
+                  <td>Tuesday</td>
+                  <td>A protein smoothie with berries</td>
+                  <td>Cauliflower sabji with soy roti.</td>
+                  <td>Cucumber</td>
+                  <td>Dal and soy roti</td>
+                </tr>
+                <tr>
+                  <td>Wednesday</td>
+                  <td>Salads </td>
+                  <td>Paneer sabji with soy roti</td>
+                  <td>An apple</td>
+                  <td>Matar paneer with soy roti</td>
+                </tr>
+                <tr>
+                  <td>Thursday</td>
+                  <td>A bowl of sprouts</td>
+                  <td>Spinach sabji with soy roti</td>
+                  <td>A banana</td>
+                  <td>Palak Paneer with soy roti</td>
+                </tr>
+                <tr>
+                  <td>Friday</td>
+                  <td>Upma</td>
+                  <td>Keto Dosa</td>
+                  <td>A watermelon</td>
+                  <td>Mushroom Masala with soy roti</td>
+                </tr>
+                <tr>
+                  <td>Saturday</td>
+                  <td>Keto Poha</td>
+                  <td>Lauki ki sabji with soy roti</td>
+                  <td>Keto nachos</td>
+                  <td>Paneer Bhurji with soy roti</td>
+                </tr>
+                <tr>
+                  <td>Sunday</td>
+                  <td>Caesar Salad</td>
+                  <td>Black dal and soy roti</td>
+                  <td>An apple</td>
+                  <td>Palak Paneer with soy roti</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>  
+      </div>
+      </div>
+  <!-- The Contact Section -->
+  <div class = w3-black>
+    <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="contact">
+      <h2 class="w3-wide w3-center">CONTACT</h2>
+      <p class="w3-opacity w3-center"><i>Fan? Drop a note!</i></p>
+      <div class="w3-row w3-padding-32">
+        <div class="w3-col m6 w3-large w3-margin-bottom">
+          <i class="fa fa-map-marker" style="width:30px"></i> Hyderabad,India<br>
+          <i class="fa fa-phone" style="width:30px"></i> Phone: +91-7597935919<br>
+          <i class="fa fa-envelope" style="width:30px"> </i> Email: pranaysparihar@gmail.com<br>
+        </div>
+        <div class="w3-col m6">
+          <form action="/action_page.php" target="_blank">
+            <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+              <div class="w3-half">
+                <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+              </div>
+              <div class="w3-half">
+                <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
+              </div>
+            </div>
+            <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
+            <button class="w3-button w3-white w3-section w3-right" type="submit">SEND</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    </div>
+    
+
+
+    
+  <script>
+    // Used to toggle the menu on small screens when clicking on the menu button
+    function myFunction() {
+      var x = document.getElementById("navDemo");
+      if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+      } else { 
+        x.className = x.className.replace(" w3-show", "");
+      }
+    }
+    </script>  
+

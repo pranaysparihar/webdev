@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Fit Everyday</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {font-family: "Lato", sans-serif}
+.mySlides {display: none}
+</style>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="index.htm" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+    <a href="#recipes" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Recipes</a>
+    <div class="w3-dropdown-hover w3-hide-small">
+      <a href="diets.htm"><button class="w3-padding-large w3-button" title="More">Diets <i class="fa fa-caret-down"></i></button></a>     
+      <div class="w3-dropdown-content w3-bar-block w3-card-4">
+        <a href="#" class="w3-bar-item w3-button">Atkins Diet</a>
+        <a href="#" class="w3-bar-item w3-button">Pritkins Diet</a>
+        <a href="#" class="w3-bar-item w3-button">Intermittent Fasting</a>
+        <a href="keto.htm" class="w3-bar-item w3-button">Keto Diet</a>
+      </div>
+    </div>
+    <div class="w3-dropdown-hover w3-hide-small">
+        <a href="workouts.htm"><button class="w3-padding-large w3-button" title="More">Workouts <i class="fa fa-caret-down"></i></button></a>     
+        <div class="w3-dropdown-content w3-bar-block w3-card-4">
+          <a href="#" class="w3-bar-item w3-button">HIIT</a>
+          <a href="#" class="w3-bar-item w3-button">Full-Body</a>
+          <a href="#" class="w3-bar-item w3-button">Home Workouts</a>
+        </div>
+      </div>
+    <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
+    <a href="#contact" class="w3-padding-large w3-hover-red w3-hide-small w3-right">Contact</a>
+  </div>
+</div>
+
+<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+    <a href="recipes.htm" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Recipes</a>
+    <a href="workouts.htm" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Workouts</a>
+    <a href="diets.htm" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Diet Plans</a>
+  </div>
+
+
+<div class="w3-black">
+    <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="recipes">
+      <h2 class="w3-wide">Recipes</h2>
+      <p class="w3-opacity"><i>Nutrition Everyday</i></p>
+      <div class="w3-row w3-padding-32">
+        <div class="w3-third">
+          <a href="#"><img src="https://images.unsplash.com/photo-1501200291289-c5a76c232e5f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%"></a>
+          <p>Chicken Roast</p>
+        </div>
+        <div class="w3-third">
+          <a href="#"><img src="https://images.unsplash.com/photo-1523677011781-c91d1bbe2f9e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=639&q=80" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%"></a>
+          <p>Lemonade</p>
+        </div>
+        <div class="w3-third">
+          <a href="#"><img src="https://images.pexels.com/photos/2067436/pexels-photo-2067436.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" class="w3-round" alt="Random Name" style="width:60%"></a>
+          <p>Chocolate Cake</p>
+        </div>
+      </div>
+      <div class="w3-row w3-padding-32">
+          <div class="w3-third">
+            <a href="#"><img src="https://images.pexels.com/photos/3252139/pexels-photo-3252139.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%"></a>
+            <p>Cookies</p>
+          </div>
+          <div class="w3-third">
+            <a href="#"><img src="https://images.pexels.com/photos/1624487/pexels-photo-1624487.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%"></a>
+            <p>Chicken Biryani</p>
+          </div>
+          <div class="w3-third">
+           <a href="#"><img src="https://images.pexels.com/photos/2105104/pexels-photo-2105104.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class="w3-round" alt="Random Name" style="width:60%"></a>
+           <p>High Protein Pancakes</p>
+          </div>
+        </div>
+    </div>
+    </div>
+
+    <!-- Contact-->
+    <div class = w3-white>
+        <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="contact">
+          <h2 class="w3-wide w3-center">CONTACT</h2>
+          <p class="w3-opacity w3-center"><i>Fan? Drop a note!</i></p>
+          <div class="w3-row w3-padding-32">
+            <div class="w3-col m6 w3-large w3-margin-bottom">
+              <i class="fa fa-map-marker" style="width:30px"></i> Hyderabad,India<br>
+              <i class="fa fa-phone" style="width:30px"></i> Phone: +91-7597935919<br>
+              <i class="fa fa-envelope" style="width:30px"> </i> Email: pranaysparihar@gmail.com<br>
+            </div>
+            <div class="w3-col m6">
+              <form action="/action_page.php" target="_blank">
+                <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+                  <div class="w3-half">
+                    <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+                  </div>
+                  <div class="w3-half">
+                    <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
+                  </div>
+                </div>
+                <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
+                <button class="w3-button w3-black w3-section w3-right" type="submit">SEND</button>
+              </form>
+            </div>
+          </div>
+        </div>
+        </div>
+
+        <script>
+            // Used to toggle the menu on small screens when clicking on the menu button
+            function myFunction() {
+              var x = document.getElementById("navDemo");
+              if (x.className.indexOf("w3-show") == -1) {
+                x.className += " w3-show";
+              } else { 
+                x.className = x.className.replace(" w3-show", "");
+              }
+            }
+            </script>
+</body>
+</html>
